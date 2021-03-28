@@ -9,8 +9,10 @@ const App = () => {
     <>
       <div>count: {count}
       </div>
-      <button onClick={increment}>BUTTON</button>
-      <button onClick={decrement}>BUTTON</button>
+      <div>
+        <button onClick={increment}>BUTTON</button>
+        <button onClick={decrement}>BUTTON</button>
+      </div>
     </>
   );
 }
