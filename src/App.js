@@ -12,8 +12,8 @@ const App = props => {
   }, [])
 
   useEffect(() => {
-    console.log('This callback is for name only')
-  }, [name])
+    return console.log('This callback is for name only')
+  }, [price])
 
   return (
     <>
